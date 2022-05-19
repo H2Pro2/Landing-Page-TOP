@@ -105,9 +105,41 @@ button {
 }
 
 .second {
-    display: flex;
     flex-grow: 1.6;
     background-color: white;
+}
+
+.img {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-title {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin-bottom: 80px;
+}
+
+.second-containers {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.second-info {
+    max-width: 200px;
 }
 
 .third {
